@@ -3,26 +3,41 @@ QoE Monitoring & Adaptive Response System
 
 🔹 Overview
 This project automates QoE monitoring and response using GCP services. It detects network performance issues (high latency, jitter, packet loss) and automatically applies adaptive actions like:
+
 ✔ Scaling cloud resources dynamically 🚀
+
 ✔ Adjusting packet throughput to optimize network traffic 🔄
+
 ✔ Triggering user feedback surveys in Firebase 📱
+
 ✔ AI-powered adaptation using Vertex AI 🤖
+
 
 🔹 Features
 ✅ Real-Time QoE Data Collection: Mobile & Cloud Agents collect network metrics 📊
+
 ✅ BigQuery Analytics: Stores QoE data & enables trend analysis 📈
+
 ✅ Automated Adaptive Actions: Uses Pub/Sub & Cloud Functions to optimize QoE dynamically 🔥
+
 ✅ User Feedback Integration: Firebase Surveys collect real-world QoE ratings ⭐
+
 ✅ ML-Based Anomaly Detection: Vertex AI detects abnormal QoE drops & suggests fixes 🤖
+
 
 🔹 Architecture
 The system is built on Google Cloud Platform (GCP) with the following components:
 
 📡 QoE Data Collection: TShark (packet capture), Mobile Agents, and Cloud Monitoring
+
 🗄️ Storage & Analysis: BigQuery for real-time analytics
+
 🚀 Adaptive Response: Cloud Functions triggered via Pub/Sub
+
 🤖 AI Optimization: Vertex AI suggests adaptive strategies
+
 📱 User Feedback: Firebase Surveys log user experience
+
 🔹 Setup Instructions
 1️⃣ Enable Required GCP Services
 Run in Cloud Shell:
